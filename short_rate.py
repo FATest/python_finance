@@ -26,5 +26,5 @@ class Short_rate(object):
 		time_list = np.array(time_list)
 		return np.exp(-self.rate*time_list)
 	
-sr = Short_rate('r',0.05)
-print "{}{}".format(sr.name,sr.getDiscountFactors([0,1,2,]))
+# sr = Short_rate('r',0.05)
+# print "{}{}".format(sr.name,sr.getDiscountFactors([0,1,2,]))
